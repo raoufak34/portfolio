@@ -7,8 +7,54 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white pt-20"
+      className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden bg-white"
     >
+      {/* ✅ شبكة SVG في الخلفية */}
+      <div
+        className="absolute inset-0 -z-10 bg-white"
+        aria-hidden="true"
+      >
+        <svg
+          className="absolute inset-0 w-full h-full"
+          width="100%"
+          height="100%"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <pattern
+              id="grid-pattern"
+              width="40"
+              height="40"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M 40 0 L 0 0 0 40"
+                fill="none"
+                stroke="#e5e7eb"
+                strokeWidth="1"
+              />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#grid-pattern)">
+            <animate
+              attributeName="x"
+              from="0"
+              to="40"
+              dur="10s"
+              repeatCount="indefinite"
+            />
+            <animate
+              attributeName="y"
+              from="0"
+              to="40"
+              dur="10s"
+              repeatCount="indefinite"
+            />
+          </rect>
+        </svg>
+      </div>
+
+      {/* ✅ المحتوى */}
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
@@ -17,8 +63,7 @@ export default function Hero() {
               <span className="block text-purple-600">That Speaks</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Im a commercial graphic designer specializing in product advertising, beverage marketing, and sports
-              promotion. I create visually stunning campaigns that drive sales and build brand recognition through
+              Im a commercial graphic designer specializing in product advertising, beverage marketing. I create visually stunning campaigns that drive sales and build brand recognition through
               advanced Photoshop techniques and compelling visual storytelling.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -30,11 +75,11 @@ export default function Hero() {
               </Button>
             </div>
           </div>
+
           <div className="relative">
             <div className="relative w-full max-w-md mx-auto">
-              <div className="absolute inset-0 bg-purple-200 rounded-full blur-3xl opacity-30"></div>
               <Image
-                src="/IMG_4582.PNG?height=500&width=500"
+                src="/IMG_4582.PNG"
                 alt="Sarah Johnson - Graphic Designer"
                 width={500}
                 height={500}
@@ -44,6 +89,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
         <div className="text-center mt-16">
           <Link
             href="#portfolio"

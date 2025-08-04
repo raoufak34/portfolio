@@ -16,15 +16,12 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-bold font-playfair text-gray-900 mb-6">About Me</h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              With extensive experience in commercial graphic design, I specialize in creating high-impact product
-              advertisements and marketing campaigns. My expertise includes advanced Photoshop techniques, 3D product
-              visualization, dynamic lighting effects, and commercial photography that drives consumer engagement and
-              sales.
+            Akhrouf Abderraouf I’m a 21-year-old Computer Science student in
+ my third year of university, With degrees in Computer Science , and
+ a strong passion for web development and user interface design.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              I work with beverage brands, sports organizations, and consumer products to create visually stunning
-              campaigns that stand out in competitive markets. My approach combines technical excellence with creative
-              vision to deliver designs that not only look amazing but also achieve measurable business results.
+            In addition, I am a graphic designer with experience in creating visual identities, digital advertisements, and marketing content. I combine technical expertise with creative skills to deliver effective digital solutions, professional designs, and outstanding user experiences that meet market needs and achieve measurable results.
             </p>
 
             <div className="grid grid-cols-2 gap-6">

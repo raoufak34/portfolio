@@ -20,9 +20,9 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "Hichem Merniz",
+    name: "Massine Bouguettaya",
     role: "Founder, Artisan Bakery",
-    image: "/hichem.jpg?height=80&width=80",
+    image: "/massine.jpg?height=80&width=80",
     content:
       "RPK X designed our website and packaging, and the results have been amazing. Our online sales increased by 40% after the redesign. She really knows how to create designs that convert.",
     rating: 5,
