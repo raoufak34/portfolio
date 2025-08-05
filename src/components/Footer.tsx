@@ -13,16 +13,16 @@ export default function Footer() {
               your brand to life.
             </p>
             <div className="flex space-x-4">
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://x.com/RaoufAkhrouf" className="text-gray-400 hover:text-white transition-colors">
                 <Twitter size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.instagram.com/raouf.rpk/" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://www.linkedin.com/in/raouf-akhrouf-b37b3a2a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-gray-400 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </Link>
-              <Link href="#" className="text-gray-400 hover:text-white transition-colors">
+              <Link href="https://github.com/raoufak34" className="text-gray-400 hover:text-white transition-colors">
                 <Github size={20} />
               </Link>
             </div>
