@@ -16,7 +16,7 @@ const testimonials = [
     role: "Marketing Director, GreenTech",
     image: "/ayoub.jpg?height=80&width=80",
     content:
-      "Working with RPK X was a fantastic experience. She understood our vision perfectly and delivered designs that truly represent our company values. Highly recommended!",
+      "Working with RPK X was a fantastic experience. He understood our vision perfectly and delivered designs that truly represent our company values. Highly recommended!",
     rating: 5,
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
     role: "Founder, Artisan Bakery",
     image: "/massine.jpg?height=80&width=80",
     content:
-      "RPK X designed our website and packaging, and the results have been amazing. Our online sales increased by 40% after the redesign. She really knows how to create designs that convert.",
+      "RPK X designed our website and packaging, and the results have been amazing. Our online sales increased by 40% after the redesign. He really knows how to create designs that convert.",
     rating: 5,
   },
 ]
